@@ -1,5 +1,7 @@
 # webserv
 
+Voici les notes prises lors du projet webserv de l'école 42.
+
 # C’est quoi un serveur web (HTTP) ?
 
 Un serveur web HTTP (Hypertext Transfer Protocol), est un ordinateur qui stocke, gère et sert des pages web et d'autres ressources à des clients, tels que des navigateurs web.
