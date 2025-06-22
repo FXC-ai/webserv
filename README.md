@@ -201,7 +201,7 @@ Lorsque j’accède à "[http://localhost:8080](http://localhost:8080/)", voici 
 - Mon navigateur reçoit la réponse du serveur et l'affiche dans la fenêtre du navigateur. Dans ce cas, la réponse est une page HTML avec le titre "Mon serveur web minimaliste" et un message de bienvenue. Visuelle, ça donne ça :
 - 
 
-[](https://lh7-us.googleusercontent.com/aPjbnXyHzjpx4FnZ29KwQY4w4x3jw5EbFRFDg0Mw80LG6DufizF26WIQJ_pAlRgEAtd7Y9XnReQJ3vZOaLZztPj_HzdxNyu_3auqIq8CyMwGb1hEBfIJFg_ERSYdJt_ALjT8Dnk16ITu8N_5)
+[](https://github.com/FXC-ai/webserv/blob/main/image(1).png)
 
 Et du côté serveur, on obtient ces messages  :
 
