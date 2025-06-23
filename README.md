@@ -15,7 +15,7 @@ Voici comment cela fonctionne :
 - **Renvoi de la réponse** (response): Une fois que le serveur web a déterminé la ressource à renvoyer, il génère une réponse (response) au format HTML, texte, image, ou tout autre format requis. Cette réponse est ensuite envoyée au navigateur du client.
 - **Affichage côté client** : Le navigateur du client reçoit la réponse et l'affiche pour que l'utilisateur puisse la voir et interagir avec la page web.
 
-[](https://lh7-us.googleusercontent.com/9J5-c-RRHmL4kBbPmT40WUgMQ24P4qUMzj7VWXZTvL0zM1RZmHkQ2aJyacQhSiVZi4gmmhpIFltSZS2oOUc1XqC1utlakAgmJOFm2L0ElWd5N_5Rn-jG-wc1cFiygE6Pkud6f6sLxAtuw5aa)
+[image_0](https://github.com/FXC-ai/webserv/blob/main/image.png)
 
 Un serveur web utilise le protocole HTTP pour communiquer avec le navigateur du client. Ce protocole définit les règles et les conventions qui régissent la communication entre le client et le serveur, permettant ainsi le transfert de données, la demande de ressources, et bien d'autres fonctionnalités liées au web.
 
