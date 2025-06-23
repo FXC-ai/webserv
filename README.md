@@ -15,7 +15,7 @@ Voici comment cela fonctionne :
 - **Renvoi de la réponse** (response): Une fois que le serveur web a déterminé la ressource à renvoyer, il génère une réponse (response) au format HTML, texte, image, ou tout autre format requis. Cette réponse est ensuite envoyée au navigateur du client.
 - **Affichage côté client** : Le navigateur du client reçoit la réponse et l'affiche pour que l'utilisateur puisse la voir et interagir avec la page web.
 
-[image_0](https://github.com/FXC-ai/webserv/blob/main/image.png)
+![image_0](https://github.com/FXC-ai/webserv/blob/main/image.png)
 
 Un serveur web utilise le protocole HTTP pour communiquer avec le navigateur du client. Ce protocole définit les règles et les conventions qui régissent la communication entre le client et le serveur, permettant ainsi le transfert de données, la demande de ressources, et bien d'autres fonctionnalités liées au web.
 
@@ -203,11 +203,11 @@ Lorsque j’accède à "[http://localhost:8080](http://localhost:8080/)", voici 
 - Mon navigateur reçoit la réponse du serveur et l'affiche dans la fenêtre du navigateur. Dans ce cas, la réponse est une page HTML avec le titre "Mon serveur web minimaliste" et un message de bienvenue. Visuelle, ça donne ça :
 - 
 
-[](https://github.com/FXC-ai/webserv/blob/main/image(1).png)
+![image_1]([https://github.com/FXC-ai/webserv/blob/main/image(1).png](https://github.com/FXC-ai/webserv/blob/main/image(1).png))
 
 Et du côté serveur, on obtient ces messages  :
 
-[](https://lh7-us.googleusercontent.com/UBv7AMVvfospL9_PlvR5DE9Ls7nRbt-IIeTYbNtsDKkaVYEcFD-aSVZJYyr0ZP2FIv-iyLT8Xh0AF3MW6qUww0zxqeZyOnYxNU8xWs8dnJc8cA_aV9jp5TPZxj0dEJ6v4XuoZlcXllsyNL5f)
+![imqge_2](https://github.com/FXC-ai/webserv/blob/main/image(2).png)
 
 On voit bien que tout a bien fonctionné comme prévu et le serveur continue de tourner :) Si un client lancer à nouveau une nouvelle requête (qu’il refresh la page web par exemple), une demande sera envoyée au serveur, qui sera acceptée, etc.
 
@@ -231,11 +231,11 @@ Il contient a minima ces 3 informations :
 
 Le header peut contenir d’autres informations comme la date et le nom du serveur.
 
-Doit suivre ensuite une ligne séparatrice : \r\n\r\n
+Doit suivre ensuite une ligne séparatrice :
 
 Schématiquement, cela correspond à l’image suivante :
 
-[](https://lh7-us.googleusercontent.com/_6ggjNKFtBO2FJ6TbrxKJd7TRYoZFReG1LtLyOsrt8P3_xUqOfh7qzLUO6m0trNUO7sNsQA7HJrWAsKdmH508zNpygQoJKicApLmaK87BKacuFCNvSCURz2_UR8mvSIyagI8qOlWJKYFTeY0)
+[image_3](https://github.com/FXC-ai/webserv/blob/main/image(3).png)
 
 ### Le body
 
@@ -271,7 +271,7 @@ Comme précédemment, il suffit ensuite de se connecter au serveur via le naviga
 
 Et la magie opère, voici l’affichage de la page :
 
-[](https://lh7-us.googleusercontent.com/iE1nmluBNL7GdsHZo0oCCUd772xM36ljFlyu9oh9SnKYSn3lXtcTSt3X5j645oz4IVR_4eGl7rWq8AozBOTs2DHsVonIIzKYfV_MCeMvZ0qC6THAyswPaB8eP2Fs8hP2GR54QIPUUai5yco8)
+![image_4](https://github.com/FXC-ai/webserv/blob/main/image(4).png)
 
 ### Code complet :
 
@@ -456,7 +456,7 @@ Tous d'abords mettons les choses au clair notre serveur doit pouvoir écouter su
 
 6) J'envoie la réponse au client ...
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/4bc43969-1fca-4a09-8d55-3219240d78af/9bc18eae-198c-423d-bce9-f3f29342ea3c/Untitled.png)
+![Untitled](https://github.com/FXC-ai/webserv/blob/main/Untitled.png)
 
 # Config
 
@@ -509,7 +509,7 @@ location:
 
 ## Principaux codes d’erreur
 
-![image.webp](https://prod-files-secure.s3.us-west-2.amazonaws.com/4bc43969-1fca-4a09-8d55-3219240d78af/9d1a911b-9b05-4de7-ac33-fdfff6b0c18b/image.webp)
+![image.webp](https://raw.githubusercontent.com/FXC-ai/webserv/refs/heads/main/image.webp)
 
 ## Exemples de requête
 
@@ -567,7 +567,7 @@ Pour une seule page, il y a plusieurs requêtes : une requête pour le html, une
 
 **Attention le schema n’est pas juste ! En cas de redirection il faut renvoyer un code 301 et faire en sorte que le navigateur renvoie une requête sur la page à rediriger.**
 
-![canvas.webp](https://prod-files-secure.s3.us-west-2.amazonaws.com/4bc43969-1fca-4a09-8d55-3219240d78af/7c737b31-918d-4b1e-8bd4-822476c52d05/canvas.webp)
+![canvas.webp](https://raw.githubusercontent.com/FXC-ai/webserv/refs/heads/main/canvas.webp)
 
 # Sources
 
