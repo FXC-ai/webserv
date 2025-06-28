@@ -203,17 +203,17 @@ Lorsque j’accède à "[http://localhost:8080](http://localhost:8080/)", voici 
 - Mon navigateur reçoit la réponse du serveur et l'affiche dans la fenêtre du navigateur. Dans ce cas, la réponse est une page HTML avec le titre "Mon serveur web minimaliste" et un message de bienvenue. Visuelle, ça donne ça :
 - 
 
-![image_1]([https://github.com/FXC-ai/webserv/blob/main/image(1).png](https://github.com/FXC-ai/webserv/blob/main/image(1).png))
+![image_1](https://github.com/FXC-ai/webserv/blob/main/image(1).png)
 
 Et du côté serveur, on obtient ces messages  :
 
-![imqge_2](https://github.com/FXC-ai/webserv/blob/main/image(2).png)
+![image_2](https://github.com/FXC-ai/webserv/blob/main/image(2).png)
 
 On voit bien que tout a bien fonctionné comme prévu et le serveur continue de tourner :) Si un client lancer à nouveau une nouvelle requête (qu’il refresh la page web par exemple), une demande sera envoyée au serveur, qui sera acceptée, etc.
 
 Une vidéo sympa pour revoir les bases une 10e fois :
 
-[HTTP : comprendre l'essentiel en 4 minutes](https://www.youtube.com/watch?v=WGdOWtKL5nA)
+![HTTP : comprendre l'essentiel en 4 minutes](https://www.youtube.com/watch?v=WGdOWtKL5nA)
 
 ## A propos du header et body
 
@@ -235,7 +235,7 @@ Doit suivre ensuite une ligne séparatrice :
 
 Schématiquement, cela correspond à l’image suivante :
 
-[image_3](https://github.com/FXC-ai/webserv/blob/main/image(3).png)
+![image_3](https://github.com/FXC-ai/webserv/blob/main/image(3).png)
 
 ### Le body
 
