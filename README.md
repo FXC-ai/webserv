@@ -1,4 +1,4 @@
-# webserv
+# Webserv
 
 Voici les notes prises lors du projet webserv de l'école 42.
 
